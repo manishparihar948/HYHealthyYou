@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22156D0A18CEDC8F00B7B186 /* HYRecoverPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22156D0918CEDC8F00B7B186 /* HYRecoverPasswordViewController.m */; };
+		22156D0D18CEE40000B7B186 /* HYRecoverPwdInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 22156D0C18CEE40000B7B186 /* HYRecoverPwdInterface.m */; };
+		22156D1018CEF21100B7B186 /* HYSignUpInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 22156D0F18CEF21100B7B186 /* HYSignUpInterface.m */; };
+		22156D1318CEF56500B7B186 /* HYRecoverDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 22156D1218CEF56500B7B186 /* HYRecoverDataObject.m */; };
+		22156D1618CEFAA800B7B186 /* HYSignUpDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 22156D1518CEFAA800B7B186 /* HYSignUpDataObject.m */; };
+		229CD5E918CDD8A0001D1423 /* HYScheduleBookInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 229CD5E818CDD8A0001D1423 /* HYScheduleBookInterface.m */; };
+		22A8BF1F18D96BF700E6E4D8 /* HYHospitalAddressInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A8BF1E18D96BF700E6E4D8 /* HYHospitalAddressInterface.m */; };
+		22AB35C518D03D970015E0C1 /* HYTimeSlotDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB35C418D03D970015E0C1 /* HYTimeSlotDataObject.m */; };
+		22AB35C718D054E40015E0C1 /* logo-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AB35C618D054E40015E0C1 /* logo-96.png */; };
+		22AB35CA18D099FB0015E0C1 /* HYVerificationInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB35C918D099FB0015E0C1 /* HYVerificationInterface.m */; };
+		22AB35CD18D09CC40015E0C1 /* HYVerifyDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB35CC18D09CC40015E0C1 /* HYVerifyDataObject.m */; };
+		22B6A68E18C9EC5900FB0EB1 /* HYOnlineDPCDInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B6A68D18C9EC5900FB0EB1 /* HYOnlineDPCDInterface.m */; };
+		22B6A69118C9F62200FB0EB1 /* HYSignInInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B6A69018C9F62200FB0EB1 /* HYSignInInterface.m */; };
+		22B6A69418CA00AF00FB0EB1 /* HYPatientDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B6A69318CA00AF00FB0EB1 /* HYPatientDataObject.m */; };
+		22BF345D18E177CB006FA822 /* login-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 22BF345C18E177CB006FA822 /* login-image.png */; };
+		22C08D0318CD863400DAAC89 /* HYOnlineStatusDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C08D0218CD863400DAAC89 /* HYOnlineStatusDataObject.m */; };
+		22C08D0618CD9B6100DAAC89 /* HYVerifyAppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C08D0518CD9B6100DAAC89 /* HYVerifyAppointmentViewController.m */; };
+		6308FDE518C7A9A700848699 /* HYSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6308FDE418C7A9A700848699 /* HYSignUpViewController.m */; };
+		6308FDE818C8894600848699 /* HYNextInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 6308FDE718C8894500848699 /* HYNextInterface.m */; };
+		633008C018C1DE2D00E33FAD /* SignIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 633008BF18C1DE2D00E33FAD /* SignIn.png */; };
+		63568F7118C0572100BE2C1B /* HYDoctorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63568F7018C0572100BE2C1B /* HYDoctorCell.m */; };
+		63568F7418C0580F00BE2C1B /* HYDoctorSearchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63568F7318C0580F00BE2C1B /* HYDoctorSearchTableView.m */; };
+		63568F7718C05DF200BE2C1B /* HYDoctorDetailsInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 63568F7618C05DF200BE2C1B /* HYDoctorDetailsInterface.m */; };
+		63568F8318C0B26900BE2C1B /* HYHospitalDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63568F8218C0B26900BE2C1B /* HYHospitalDataObject.m */; };
+		63568F8618C1D89300BE2C1B /* HYBookAppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63568F8518C1D89300BE2C1B /* HYBookAppointmentViewController.m */; };
+		63568F8918C1D8DB00BE2C1B /* HYSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63568F8818C1D8DB00BE2C1B /* HYSignInViewController.m */; };
+		63568F8B18C1DAE500BE2C1B /* signUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 63568F8A18C1DAE500BE2C1B /* signUp.png */; };
 		63BC4E2318BF56A900613900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC4E2218BF56A900613900 /* Foundation.framework */; };
 		63BC4E2518BF56A900613900 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC4E2418BF56A900613900 /* CoreGraphics.framework */; };
 		63BC4E2718BF56A900613900 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC4E2618BF56A900613900 /* UIKit.framework */; };
@@ -15,13 +42,74 @@
 		63BC4E3318BF56A900613900 /* HYHealtyYouAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC4E3218BF56A900613900 /* HYHealtyYouAppDelegate.m */; };
 		63BC4E3618BF56A900613900 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4E3418BF56A900613900 /* Main_iPhone.storyboard */; };
 		63BC4E3918BF56A900613900 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4E3718BF56A900613900 /* Main_iPad.storyboard */; };
-		63BC4E3C18BF56A900613900 /* HYHealtyYouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC4E3B18BF56A900613900 /* HYHealtyYouViewController.m */; };
 		63BC4E3E18BF56A900613900 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4E3D18BF56A900613900 /* Images.xcassets */; };
 		63BC4E4518BF56AA00613900 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC4E4418BF56AA00613900 /* XCTest.framework */; };
 		63BC4E4618BF56AA00613900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC4E2218BF56A900613900 /* Foundation.framework */; };
 		63BC4E4718BF56AA00613900 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC4E2618BF56A900613900 /* UIKit.framework */; };
 		63BC4E4F18BF56AA00613900 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4E4D18BF56AA00613900 /* InfoPlist.strings */; };
 		63BC4E5118BF56AA00613900 /* HYHealthyYouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC4E5018BF56AA00613900 /* HYHealthyYouTests.m */; };
+		63BC4F0418BF576E00613900 /* back-arrow-click.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4E9618BF576E00613900 /* back-arrow-click.png */; };
+		63BC4F0518BF576E00613900 /* back-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4E9718BF576E00613900 /* back-arrow.png */; };
+		63BC4F0618BF576E00613900 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4E9818BF576E00613900 /* background.png */; };
+		63BC4F0718BF576E00613900 /* background189x315-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4E9918BF576E00613900 /* background189x315-2.png */; };
+		63BC4F0818BF576E00613900 /* background189x315.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4E9A18BF576E00613900 /* background189x315.png */; };
+		63BC4F0918BF576E00613900 /* book-appointment-click.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4E9B18BF576E00613900 /* book-appointment-click.png */; };
+		63BC4F0A18BF576E00613900 /* book-appointment.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4E9C18BF576E00613900 /* book-appointment.png */; };
+		63BC4F0B18BF576E00613900 /* btn-active-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4E9D18BF576E00613900 /* btn-active-left.png */; };
+		63BC4F0C18BF576E00613900 /* btn-active-middle.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4E9E18BF576E00613900 /* btn-active-middle.png */; };
+		63BC4F0D18BF576E00613900 /* btn-active-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4E9F18BF576E00613900 /* btn-active-right.png */; };
+		63BC4F0E18BF576E00613900 /* btn-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EA018BF576E00613900 /* btn-bg.png */; };
+		63BC4F0F18BF576E00613900 /* btn-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EA118BF576E00613900 /* btn-left.png */; };
+		63BC4F1018BF576E00613900 /* btn-middle.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EA218BF576E00613900 /* btn-middle.png */; };
+		63BC4F1118BF576E00613900 /* btn-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EA318BF576E00613900 /* btn-right.png */; };
+		63BC4F1218BF576E00613900 /* calendar-click.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EA418BF576E00613900 /* calendar-click.png */; };
+		63BC4F1318BF576E00613900 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EA518BF576E00613900 /* calendar.png */; };
+		63BC4F1418BF576E00613900 /* cancel-click.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EA618BF576E00613900 /* cancel-click.png */; };
+		63BC4F1518BF576E00613900 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EA718BF576E00613900 /* cancel.png */; };
+		63BC4F1618BF576E00613900 /* date-mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EA818BF576E00613900 /* date-mobile.png */; };
+		63BC4F1718BF576E00613900 /* devider.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EA918BF576E00613900 /* devider.png */; };
+		63BC4F1818BF576E00613900 /* doctor-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EAA18BF576E00613900 /* doctor-image.png */; };
+		63BC4F1918BF576E00613900 /* dropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EAB18BF576E00613900 /* dropdown.png */; };
+		63BC4F1A18BF576E00613900 /* finish-click.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EAC18BF576E00613900 /* finish-click.png */; };
+		63BC4F1B18BF576E00613900 /* finish.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EAD18BF576E00613900 /* finish.png */; };
+		63BC4F1C18BF576E00613900 /* home-click.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EAE18BF576E00613900 /* home-click.png */; };
+		63BC4F1D18BF576E00613900 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EAF18BF576E00613900 /* home.png */; };
+		63BC4F1E18BF576E00613900 /* HY-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EB018BF576E00613900 /* HY-logo.png */; };
+		63BC4F1F18BF576E00613900 /* launcher-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EB118BF576E00613900 /* launcher-icon.png */; };
+		63BC4F2018BF576E00613900 /* launcher-icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EB218BF576E00613900 /* launcher-icon2.png */; };
+		63BC4F2118BF576E00613900 /* list-doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EB318BF576E00613900 /* list-doctor.png */; };
+		63BC4F2218BF576E00613900 /* login-btn-click.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EB418BF576E00613900 /* login-btn-click.png */; };
+		63BC4F2318BF576E00613900 /* login-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EB518BF576E00613900 /* login-btn.png */; };
+		63BC4F2418BF576E00613900 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EB618BF576E00613900 /* login.png */; };
+		63BC4F2518BF576E00613900 /* logout-s.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EB718BF576E00613900 /* logout-s.png */; };
+		63BC4F2618BF576E00613900 /* mobile-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EB818BF576E00613900 /* mobile-big.png */; };
+		63BC4F2718BF576E00613900 /* mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EB918BF576E00613900 /* mobile.png */; };
+		63BC4F2818BF576E00613900 /* new-register-click.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EBA18BF576E00613900 /* new-register-click.png */; };
+		63BC4F2918BF576E00613900 /* new-register.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EBB18BF576E00613900 /* new-register.png */; };
+		63BC4F2A18BF576E00613900 /* next-click.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EBC18BF576E00613900 /* next-click.png */; };
+		63BC4F2B18BF576E00613900 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EBD18BF576E00613900 /* next.png */; };
+		63BC4F2C18BF576E00613900 /* radio-click.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EBE18BF576E00613900 /* radio-click.png */; };
+		63BC4F2D18BF576E00613900 /* radio.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EBF18BF576E00613900 /* radio.png */; };
+		63BC4F2E18BF576E00613900 /* registration-line-divider.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EC018BF576E00613900 /* registration-line-divider.png */; };
+		63BC4F2F18BF576E00613900 /* search-icon-click.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EC118BF576E00613900 /* search-icon-click.png */; };
+		63BC4F3018BF576E00613900 /* search-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EC218BF576E00613900 /* search-icon.png */; };
+		63BC4F3118BF576E00613900 /* search-text-box.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EC318BF576E00613900 /* search-text-box.png */; };
+		63BC4F3218BF576E00613900 /* searchbtn-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EC418BF576E00613900 /* searchbtn-hover.png */; };
+		63BC4F3318BF576E00613900 /* searchbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EC518BF576E00613900 /* searchbtn.png */; };
+		63BC4F3418BF576E00613900 /* telephone.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EC618BF576E00613900 /* telephone.png */; };
+		63BC4F3518BF576E00613900 /* time-mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EC718BF576E00613900 /* time-mobile.png */; };
+		63BC4F3618BF576E00613900 /* time-slot.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EC818BF576E00613900 /* time-slot.png */; };
+		63BC4F3718BF576E00613900 /* welcome-426x320.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4EC918BF576E00613900 /* welcome-426x320.png */; };
+		63BC4F3818BF576E00613900 /* welcome-470x320.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4ECA18BF576E00613900 /* welcome-470x320.png */; };
+		63BC4F3918BF576E00613900 /* welcome-640x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4ECB18BF576E00613900 /* welcome-640x480.png */; };
+		63BC4F3A18BF576E00613900 /* welcome-960x720.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4ECC18BF576E00613900 /* welcome-960x720.png */; };
+		63BC4F3B18BF576E00613900 /* welcome-page.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4ECD18BF576E00613900 /* welcome-page.png */; };
+		63BC4F3F18BF57CD00613900 /* HYDoctorSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC4F3E18BF57CD00613900 /* HYDoctorSearchViewController.m */; };
+		63BC4F4218BF580800613900 /* HYDoctorDetailDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC4F4118BF580800613900 /* HYDoctorDetailDataObject.m */; };
+		63BC4F4518BF582100613900 /* HYDoctorSearchInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC4F4418BF582100613900 /* HYDoctorSearchInterface.m */; };
+		63BC4F4918BF5CC300613900 /* HYHealthyYouApi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4F4818BF5CC300613900 /* HYHealthyYouApi.plist */; };
+		63BC4F4C18BF5D4800613900 /* HYDoctorInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC4F4B18BF5D4800613900 /* HYDoctorInfoViewController.m */; };
+		63C9337218C8AA2D007B1D02 /* HYScheduleDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C9337118C8AA2D007B1D02 /* HYScheduleDataObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +123,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22156D0818CEDC8F00B7B186 /* HYRecoverPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYRecoverPasswordViewController.h; sourceTree = "<group>"; };
+		22156D0918CEDC8F00B7B186 /* HYRecoverPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYRecoverPasswordViewController.m; sourceTree = "<group>"; };
+		22156D0B18CEE40000B7B186 /* HYRecoverPwdInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYRecoverPwdInterface.h; sourceTree = "<group>"; };
+		22156D0C18CEE40000B7B186 /* HYRecoverPwdInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYRecoverPwdInterface.m; sourceTree = "<group>"; };
+		22156D0E18CEF21100B7B186 /* HYSignUpInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSignUpInterface.h; sourceTree = "<group>"; };
+		22156D0F18CEF21100B7B186 /* HYSignUpInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSignUpInterface.m; sourceTree = "<group>"; };
+		22156D1118CEF56500B7B186 /* HYRecoverDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYRecoverDataObject.h; sourceTree = "<group>"; };
+		22156D1218CEF56500B7B186 /* HYRecoverDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYRecoverDataObject.m; sourceTree = "<group>"; };
+		22156D1418CEFAA800B7B186 /* HYSignUpDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSignUpDataObject.h; sourceTree = "<group>"; };
+		22156D1518CEFAA800B7B186 /* HYSignUpDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSignUpDataObject.m; sourceTree = "<group>"; };
+		229CD5E718CDD8A0001D1423 /* HYScheduleBookInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYScheduleBookInterface.h; sourceTree = "<group>"; };
+		229CD5E818CDD8A0001D1423 /* HYScheduleBookInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYScheduleBookInterface.m; sourceTree = "<group>"; };
+		22A8BF1D18D96BF700E6E4D8 /* HYHospitalAddressInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHospitalAddressInterface.h; sourceTree = "<group>"; };
+		22A8BF1E18D96BF700E6E4D8 /* HYHospitalAddressInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHospitalAddressInterface.m; sourceTree = "<group>"; };
+		22AB35C318D03D970015E0C1 /* HYTimeSlotDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTimeSlotDataObject.h; sourceTree = "<group>"; };
+		22AB35C418D03D970015E0C1 /* HYTimeSlotDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTimeSlotDataObject.m; sourceTree = "<group>"; };
+		22AB35C618D054E40015E0C1 /* logo-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-96.png"; sourceTree = "<group>"; };
+		22AB35C818D099FB0015E0C1 /* HYVerificationInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYVerificationInterface.h; sourceTree = "<group>"; };
+		22AB35C918D099FB0015E0C1 /* HYVerificationInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVerificationInterface.m; sourceTree = "<group>"; };
+		22AB35CB18D09CC40015E0C1 /* HYVerifyDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYVerifyDataObject.h; sourceTree = "<group>"; };
+		22AB35CC18D09CC40015E0C1 /* HYVerifyDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVerifyDataObject.m; sourceTree = "<group>"; };
+		22B6A68C18C9EC5900FB0EB1 /* HYOnlineDPCDInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYOnlineDPCDInterface.h; sourceTree = "<group>"; };
+		22B6A68D18C9EC5900FB0EB1 /* HYOnlineDPCDInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYOnlineDPCDInterface.m; sourceTree = "<group>"; };
+		22B6A68F18C9F62100FB0EB1 /* HYSignInInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSignInInterface.h; sourceTree = "<group>"; };
+		22B6A69018C9F62200FB0EB1 /* HYSignInInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSignInInterface.m; sourceTree = "<group>"; };
+		22B6A69218CA00AF00FB0EB1 /* HYPatientDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPatientDataObject.h; sourceTree = "<group>"; };
+		22B6A69318CA00AF00FB0EB1 /* HYPatientDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPatientDataObject.m; sourceTree = "<group>"; };
+		22BF345C18E177CB006FA822 /* login-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login-image.png"; path = "../../../../../../Downloads/login-image.png"; sourceTree = "<group>"; };
+		22C08D0118CD863400DAAC89 /* HYOnlineStatusDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYOnlineStatusDataObject.h; sourceTree = "<group>"; };
+		22C08D0218CD863400DAAC89 /* HYOnlineStatusDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYOnlineStatusDataObject.m; sourceTree = "<group>"; };
+		22C08D0418CD9B6100DAAC89 /* HYVerifyAppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYVerifyAppointmentViewController.h; sourceTree = "<group>"; };
+		22C08D0518CD9B6100DAAC89 /* HYVerifyAppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVerifyAppointmentViewController.m; sourceTree = "<group>"; };
+		6308FDE318C7A9A700848699 /* HYSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSignUpViewController.h; sourceTree = "<group>"; };
+		6308FDE418C7A9A700848699 /* HYSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSignUpViewController.m; sourceTree = "<group>"; };
+		6308FDE618C8894500848699 /* HYNextInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNextInterface.h; sourceTree = "<group>"; };
+		6308FDE718C8894500848699 /* HYNextInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNextInterface.m; sourceTree = "<group>"; };
+		633008BF18C1DE2D00E33FAD /* SignIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SignIn.png; sourceTree = "<group>"; };
+		63568F6F18C0572100BE2C1B /* HYDoctorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDoctorCell.h; sourceTree = "<group>"; };
+		63568F7018C0572100BE2C1B /* HYDoctorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDoctorCell.m; sourceTree = "<group>"; };
+		63568F7218C0580F00BE2C1B /* HYDoctorSearchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDoctorSearchTableView.h; sourceTree = "<group>"; };
+		63568F7318C0580F00BE2C1B /* HYDoctorSearchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDoctorSearchTableView.m; sourceTree = "<group>"; };
+		63568F7518C05DF200BE2C1B /* HYDoctorDetailsInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDoctorDetailsInterface.h; sourceTree = "<group>"; };
+		63568F7618C05DF200BE2C1B /* HYDoctorDetailsInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDoctorDetailsInterface.m; sourceTree = "<group>"; };
+		63568F8118C0B26900BE2C1B /* HYHospitalDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHospitalDataObject.h; sourceTree = "<group>"; };
+		63568F8218C0B26900BE2C1B /* HYHospitalDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHospitalDataObject.m; sourceTree = "<group>"; };
+		63568F8418C1D89300BE2C1B /* HYBookAppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBookAppointmentViewController.h; sourceTree = "<group>"; };
+		63568F8518C1D89300BE2C1B /* HYBookAppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBookAppointmentViewController.m; sourceTree = "<group>"; };
+		63568F8718C1D8DB00BE2C1B /* HYSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSignInViewController.h; sourceTree = "<group>"; };
+		63568F8818C1D8DB00BE2C1B /* HYSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSignInViewController.m; sourceTree = "<group>"; };
+		63568F8A18C1DAE500BE2C1B /* signUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signUp.png; sourceTree = "<group>"; };
 		63BC4E1F18BF56A900613900 /* HYHealthyYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYHealthyYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BC4E2218BF56A900613900 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63BC4E2418BF56A900613900 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +185,79 @@
 		63BC4E3218BF56A900613900 /* HYHealtyYouAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHealtyYouAppDelegate.m; sourceTree = "<group>"; };
 		63BC4E3518BF56A900613900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		63BC4E3818BF56A900613900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		63BC4E3A18BF56A900613900 /* HYHealtyYouViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHealtyYouViewController.h; sourceTree = "<group>"; };
-		63BC4E3B18BF56A900613900 /* HYHealtyYouViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHealtyYouViewController.m; sourceTree = "<group>"; };
 		63BC4E3D18BF56A900613900 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		63BC4E4318BF56AA00613900 /* HYHealthyYouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYHealthyYouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BC4E4418BF56AA00613900 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		63BC4E4C18BF56AA00613900 /* HYHealthyYouTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HYHealthyYouTests-Info.plist"; sourceTree = "<group>"; };
 		63BC4E4E18BF56AA00613900 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63BC4E5018BF56AA00613900 /* HYHealthyYouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHealthyYouTests.m; sourceTree = "<group>"; };
+		63BC4E9618BF576E00613900 /* back-arrow-click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow-click.png"; sourceTree = "<group>"; };
+		63BC4E9718BF576E00613900 /* back-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow.png"; sourceTree = "<group>"; };
+		63BC4E9818BF576E00613900 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		63BC4E9918BF576E00613900 /* background189x315-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background189x315-2.png"; sourceTree = "<group>"; };
+		63BC4E9A18BF576E00613900 /* background189x315.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background189x315.png; sourceTree = "<group>"; };
+		63BC4E9B18BF576E00613900 /* book-appointment-click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-appointment-click.png"; sourceTree = "<group>"; };
+		63BC4E9C18BF576E00613900 /* book-appointment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-appointment.png"; sourceTree = "<group>"; };
+		63BC4E9D18BF576E00613900 /* btn-active-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-active-left.png"; sourceTree = "<group>"; };
+		63BC4E9E18BF576E00613900 /* btn-active-middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-active-middle.png"; sourceTree = "<group>"; };
+		63BC4E9F18BF576E00613900 /* btn-active-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-active-right.png"; sourceTree = "<group>"; };
+		63BC4EA018BF576E00613900 /* btn-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-bg.png"; sourceTree = "<group>"; };
+		63BC4EA118BF576E00613900 /* btn-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-left.png"; sourceTree = "<group>"; };
+		63BC4EA218BF576E00613900 /* btn-middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-middle.png"; sourceTree = "<group>"; };
+		63BC4EA318BF576E00613900 /* btn-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-right.png"; sourceTree = "<group>"; };
+		63BC4EA418BF576E00613900 /* calendar-click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-click.png"; sourceTree = "<group>"; };
+		63BC4EA518BF576E00613900 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		63BC4EA618BF576E00613900 /* cancel-click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel-click.png"; sourceTree = "<group>"; };
+		63BC4EA718BF576E00613900 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		63BC4EA818BF576E00613900 /* date-mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "date-mobile.png"; sourceTree = "<group>"; };
+		63BC4EA918BF576E00613900 /* devider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = devider.png; sourceTree = "<group>"; };
+		63BC4EAA18BF576E00613900 /* doctor-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doctor-image.png"; sourceTree = "<group>"; };
+		63BC4EAB18BF576E00613900 /* dropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropdown.png; sourceTree = "<group>"; };
+		63BC4EAC18BF576E00613900 /* finish-click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finish-click.png"; sourceTree = "<group>"; };
+		63BC4EAD18BF576E00613900 /* finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finish.png; sourceTree = "<group>"; };
+		63BC4EAE18BF576E00613900 /* home-click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-click.png"; sourceTree = "<group>"; };
+		63BC4EAF18BF576E00613900 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		63BC4EB018BF576E00613900 /* HY-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HY-logo.png"; sourceTree = "<group>"; };
+		63BC4EB118BF576E00613900 /* launcher-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launcher-icon.png"; sourceTree = "<group>"; };
+		63BC4EB218BF576E00613900 /* launcher-icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launcher-icon2.png"; sourceTree = "<group>"; };
+		63BC4EB318BF576E00613900 /* list-doctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-doctor.png"; sourceTree = "<group>"; };
+		63BC4EB418BF576E00613900 /* login-btn-click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-btn-click.png"; sourceTree = "<group>"; };
+		63BC4EB518BF576E00613900 /* login-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-btn.png"; sourceTree = "<group>"; };
+		63BC4EB618BF576E00613900 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		63BC4EB718BF576E00613900 /* logout-s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout-s.png"; sourceTree = "<group>"; };
+		63BC4EB818BF576E00613900 /* mobile-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobile-big.png"; sourceTree = "<group>"; };
+		63BC4EB918BF576E00613900 /* mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobile.png; sourceTree = "<group>"; };
+		63BC4EBA18BF576E00613900 /* new-register-click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-register-click.png"; sourceTree = "<group>"; };
+		63BC4EBB18BF576E00613900 /* new-register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-register.png"; sourceTree = "<group>"; };
+		63BC4EBC18BF576E00613900 /* next-click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next-click.png"; sourceTree = "<group>"; };
+		63BC4EBD18BF576E00613900 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		63BC4EBE18BF576E00613900 /* radio-click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-click.png"; sourceTree = "<group>"; };
+		63BC4EBF18BF576E00613900 /* radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio.png; sourceTree = "<group>"; };
+		63BC4EC018BF576E00613900 /* registration-line-divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "registration-line-divider.png"; sourceTree = "<group>"; };
+		63BC4EC118BF576E00613900 /* search-icon-click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-icon-click.png"; sourceTree = "<group>"; };
+		63BC4EC218BF576E00613900 /* search-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-icon.png"; sourceTree = "<group>"; };
+		63BC4EC318BF576E00613900 /* search-text-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-text-box.png"; sourceTree = "<group>"; };
+		63BC4EC418BF576E00613900 /* searchbtn-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchbtn-hover.png"; sourceTree = "<group>"; };
+		63BC4EC518BF576E00613900 /* searchbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchbtn.png; sourceTree = "<group>"; };
+		63BC4EC618BF576E00613900 /* telephone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = telephone.png; sourceTree = "<group>"; };
+		63BC4EC718BF576E00613900 /* time-mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time-mobile.png"; sourceTree = "<group>"; };
+		63BC4EC818BF576E00613900 /* time-slot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time-slot.png"; sourceTree = "<group>"; };
+		63BC4EC918BF576E00613900 /* welcome-426x320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-426x320.png"; sourceTree = "<group>"; };
+		63BC4ECA18BF576E00613900 /* welcome-470x320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-470x320.png"; sourceTree = "<group>"; };
+		63BC4ECB18BF576E00613900 /* welcome-640x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-640x480.png"; sourceTree = "<group>"; };
+		63BC4ECC18BF576E00613900 /* welcome-960x720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-960x720.png"; sourceTree = "<group>"; };
+		63BC4ECD18BF576E00613900 /* welcome-page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-page.png"; sourceTree = "<group>"; };
+		63BC4F3D18BF57CD00613900 /* HYDoctorSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDoctorSearchViewController.h; sourceTree = "<group>"; };
+		63BC4F3E18BF57CD00613900 /* HYDoctorSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDoctorSearchViewController.m; sourceTree = "<group>"; };
+		63BC4F4018BF580800613900 /* HYDoctorDetailDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDoctorDetailDataObject.h; sourceTree = "<group>"; };
+		63BC4F4118BF580800613900 /* HYDoctorDetailDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDoctorDetailDataObject.m; sourceTree = "<group>"; };
+		63BC4F4318BF582100613900 /* HYDoctorSearchInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDoctorSearchInterface.h; sourceTree = "<group>"; };
+		63BC4F4418BF582100613900 /* HYDoctorSearchInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDoctorSearchInterface.m; sourceTree = "<group>"; };
+		63BC4F4818BF5CC300613900 /* HYHealthyYouApi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HYHealthyYouApi.plist; sourceTree = "<group>"; };
+		63BC4F4A18BF5D4800613900 /* HYDoctorInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDoctorInfoViewController.h; sourceTree = "<group>"; };
+		63BC4F4B18BF5D4800613900 /* HYDoctorInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDoctorInfoViewController.m; sourceTree = "<group>"; };
+		63C9337018C8AA2D007B1D02 /* HYScheduleDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYScheduleDataObject.h; sourceTree = "<group>"; };
+		63C9337118C8AA2D007B1D02 /* HYScheduleDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYScheduleDataObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +317,15 @@
 		63BC4E2818BF56A900613900 /* HYHealthyYou */ = {
 			isa = PBXGroup;
 			children = (
+				63BC4F3C18BF577900613900 /* Media */,
+				63BC4E5D18BF570D00613900 /* Interfaces */,
+				63BC4E5C18BF570600613900 /* DataObjects */,
+				63BC4E5B18BF56FC00613900 /* Controls */,
+				63BC4E5A18BF56EC00613900 /* Controllers */,
 				63BC4E3118BF56A900613900 /* HYHealtyYouAppDelegate.h */,
 				63BC4E3218BF56A900613900 /* HYHealtyYouAppDelegate.m */,
 				63BC4E3418BF56A900613900 /* Main_iPhone.storyboard */,
 				63BC4E3718BF56A900613900 /* Main_iPad.storyboard */,
-				63BC4E3A18BF56A900613900 /* HYHealtyYouViewController.h */,
-				63BC4E3B18BF56A900613900 /* HYHealtyYouViewController.m */,
 				63BC4E3D18BF56A900613900 /* Images.xcassets */,
 				63BC4E2918BF56A900613900 /* Supporting Files */,
 			);
@@ -133,6 +339,7 @@
 				63BC4E2B18BF56A900613900 /* InfoPlist.strings */,
 				63BC4E2E18BF56A900613900 /* main.m */,
 				63BC4E3018BF56A900613900 /* HYHealthyYou-Prefix.pch */,
+				63BC4F4818BF5CC300613900 /* HYHealthyYouApi.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,6 +360,165 @@
 				63BC4E4D18BF56AA00613900 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63BC4E5A18BF56EC00613900 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				63BC4F3D18BF57CD00613900 /* HYDoctorSearchViewController.h */,
+				63BC4F3E18BF57CD00613900 /* HYDoctorSearchViewController.m */,
+				63BC4F4A18BF5D4800613900 /* HYDoctorInfoViewController.h */,
+				63BC4F4B18BF5D4800613900 /* HYDoctorInfoViewController.m */,
+				63568F8418C1D89300BE2C1B /* HYBookAppointmentViewController.h */,
+				63568F8518C1D89300BE2C1B /* HYBookAppointmentViewController.m */,
+				63568F8718C1D8DB00BE2C1B /* HYSignInViewController.h */,
+				63568F8818C1D8DB00BE2C1B /* HYSignInViewController.m */,
+				22C08D0418CD9B6100DAAC89 /* HYVerifyAppointmentViewController.h */,
+				22C08D0518CD9B6100DAAC89 /* HYVerifyAppointmentViewController.m */,
+				6308FDE318C7A9A700848699 /* HYSignUpViewController.h */,
+				6308FDE418C7A9A700848699 /* HYSignUpViewController.m */,
+				22156D0818CEDC8F00B7B186 /* HYRecoverPasswordViewController.h */,
+				22156D0918CEDC8F00B7B186 /* HYRecoverPasswordViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		63BC4E5B18BF56FC00613900 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				63568F6F18C0572100BE2C1B /* HYDoctorCell.h */,
+				63568F7018C0572100BE2C1B /* HYDoctorCell.m */,
+				63568F7218C0580F00BE2C1B /* HYDoctorSearchTableView.h */,
+				63568F7318C0580F00BE2C1B /* HYDoctorSearchTableView.m */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		63BC4E5C18BF570600613900 /* DataObjects */ = {
+			isa = PBXGroup;
+			children = (
+				63BC4F4018BF580800613900 /* HYDoctorDetailDataObject.h */,
+				63BC4F4118BF580800613900 /* HYDoctorDetailDataObject.m */,
+				63568F8118C0B26900BE2C1B /* HYHospitalDataObject.h */,
+				63568F8218C0B26900BE2C1B /* HYHospitalDataObject.m */,
+				63C9337018C8AA2D007B1D02 /* HYScheduleDataObject.h */,
+				63C9337118C8AA2D007B1D02 /* HYScheduleDataObject.m */,
+				22B6A69218CA00AF00FB0EB1 /* HYPatientDataObject.h */,
+				22B6A69318CA00AF00FB0EB1 /* HYPatientDataObject.m */,
+				22C08D0118CD863400DAAC89 /* HYOnlineStatusDataObject.h */,
+				22C08D0218CD863400DAAC89 /* HYOnlineStatusDataObject.m */,
+				22156D1118CEF56500B7B186 /* HYRecoverDataObject.h */,
+				22156D1218CEF56500B7B186 /* HYRecoverDataObject.m */,
+				22156D1418CEFAA800B7B186 /* HYSignUpDataObject.h */,
+				22156D1518CEFAA800B7B186 /* HYSignUpDataObject.m */,
+				22AB35C318D03D970015E0C1 /* HYTimeSlotDataObject.h */,
+				22AB35C418D03D970015E0C1 /* HYTimeSlotDataObject.m */,
+				22AB35CB18D09CC40015E0C1 /* HYVerifyDataObject.h */,
+				22AB35CC18D09CC40015E0C1 /* HYVerifyDataObject.m */,
+			);
+			name = DataObjects;
+			sourceTree = "<group>";
+		};
+		63BC4E5D18BF570D00613900 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				63BC4F4318BF582100613900 /* HYDoctorSearchInterface.h */,
+				63BC4F4418BF582100613900 /* HYDoctorSearchInterface.m */,
+				63568F7518C05DF200BE2C1B /* HYDoctorDetailsInterface.h */,
+				63568F7618C05DF200BE2C1B /* HYDoctorDetailsInterface.m */,
+				22A8BF1D18D96BF700E6E4D8 /* HYHospitalAddressInterface.h */,
+				22A8BF1E18D96BF700E6E4D8 /* HYHospitalAddressInterface.m */,
+				6308FDE618C8894500848699 /* HYNextInterface.h */,
+				6308FDE718C8894500848699 /* HYNextInterface.m */,
+				229CD5E718CDD8A0001D1423 /* HYScheduleBookInterface.h */,
+				229CD5E818CDD8A0001D1423 /* HYScheduleBookInterface.m */,
+				22B6A68C18C9EC5900FB0EB1 /* HYOnlineDPCDInterface.h */,
+				22B6A68D18C9EC5900FB0EB1 /* HYOnlineDPCDInterface.m */,
+				22B6A68F18C9F62100FB0EB1 /* HYSignInInterface.h */,
+				22B6A69018C9F62200FB0EB1 /* HYSignInInterface.m */,
+				22156D0B18CEE40000B7B186 /* HYRecoverPwdInterface.h */,
+				22156D0C18CEE40000B7B186 /* HYRecoverPwdInterface.m */,
+				22156D0E18CEF21100B7B186 /* HYSignUpInterface.h */,
+				22156D0F18CEF21100B7B186 /* HYSignUpInterface.m */,
+				22AB35C818D099FB0015E0C1 /* HYVerificationInterface.h */,
+				22AB35C918D099FB0015E0C1 /* HYVerificationInterface.m */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		63BC4E9518BF576E00613900 /* LowRes-images */ = {
+			isa = PBXGroup;
+			children = (
+				22BF345C18E177CB006FA822 /* login-image.png */,
+				22AB35C618D054E40015E0C1 /* logo-96.png */,
+				63BC4E9618BF576E00613900 /* back-arrow-click.png */,
+				63BC4E9718BF576E00613900 /* back-arrow.png */,
+				63BC4E9818BF576E00613900 /* background.png */,
+				63BC4E9918BF576E00613900 /* background189x315-2.png */,
+				63BC4E9A18BF576E00613900 /* background189x315.png */,
+				63BC4E9B18BF576E00613900 /* book-appointment-click.png */,
+				63BC4E9C18BF576E00613900 /* book-appointment.png */,
+				63BC4E9D18BF576E00613900 /* btn-active-left.png */,
+				63BC4E9E18BF576E00613900 /* btn-active-middle.png */,
+				63BC4E9F18BF576E00613900 /* btn-active-right.png */,
+				63BC4EA018BF576E00613900 /* btn-bg.png */,
+				63BC4EA118BF576E00613900 /* btn-left.png */,
+				63BC4EA218BF576E00613900 /* btn-middle.png */,
+				63BC4EA318BF576E00613900 /* btn-right.png */,
+				63BC4EA418BF576E00613900 /* calendar-click.png */,
+				63BC4EA518BF576E00613900 /* calendar.png */,
+				63BC4EA618BF576E00613900 /* cancel-click.png */,
+				63BC4EA718BF576E00613900 /* cancel.png */,
+				63BC4EA818BF576E00613900 /* date-mobile.png */,
+				63BC4EA918BF576E00613900 /* devider.png */,
+				63BC4EAA18BF576E00613900 /* doctor-image.png */,
+				63BC4EAB18BF576E00613900 /* dropdown.png */,
+				63BC4EAC18BF576E00613900 /* finish-click.png */,
+				63BC4EAD18BF576E00613900 /* finish.png */,
+				63BC4EAE18BF576E00613900 /* home-click.png */,
+				63BC4EAF18BF576E00613900 /* home.png */,
+				63BC4EB018BF576E00613900 /* HY-logo.png */,
+				63BC4EB118BF576E00613900 /* launcher-icon.png */,
+				63BC4EB218BF576E00613900 /* launcher-icon2.png */,
+				63BC4EB318BF576E00613900 /* list-doctor.png */,
+				633008BF18C1DE2D00E33FAD /* SignIn.png */,
+				63BC4EB418BF576E00613900 /* login-btn-click.png */,
+				63BC4EB518BF576E00613900 /* login-btn.png */,
+				63BC4EB618BF576E00613900 /* login.png */,
+				63BC4EB718BF576E00613900 /* logout-s.png */,
+				63BC4EB818BF576E00613900 /* mobile-big.png */,
+				63BC4EB918BF576E00613900 /* mobile.png */,
+				63BC4EBA18BF576E00613900 /* new-register-click.png */,
+				63568F8A18C1DAE500BE2C1B /* signUp.png */,
+				63BC4EBB18BF576E00613900 /* new-register.png */,
+				63BC4EBC18BF576E00613900 /* next-click.png */,
+				63BC4EBD18BF576E00613900 /* next.png */,
+				63BC4EBE18BF576E00613900 /* radio-click.png */,
+				63BC4EBF18BF576E00613900 /* radio.png */,
+				63BC4EC018BF576E00613900 /* registration-line-divider.png */,
+				63BC4EC118BF576E00613900 /* search-icon-click.png */,
+				63BC4EC218BF576E00613900 /* search-icon.png */,
+				63BC4EC318BF576E00613900 /* search-text-box.png */,
+				63BC4EC418BF576E00613900 /* searchbtn-hover.png */,
+				63BC4EC518BF576E00613900 /* searchbtn.png */,
+				63BC4EC618BF576E00613900 /* telephone.png */,
+				63BC4EC718BF576E00613900 /* time-mobile.png */,
+				63BC4EC818BF576E00613900 /* time-slot.png */,
+				63BC4EC918BF576E00613900 /* welcome-426x320.png */,
+				63BC4ECA18BF576E00613900 /* welcome-470x320.png */,
+				63BC4ECB18BF576E00613900 /* welcome-640x480.png */,
+				63BC4ECC18BF576E00613900 /* welcome-960x720.png */,
+				63BC4ECD18BF576E00613900 /* welcome-page.png */,
+			);
+			path = "LowRes-images";
+			sourceTree = "<group>";
+		};
+		63BC4F3C18BF577900613900 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				63BC4E9518BF576E00613900 /* LowRes-images */,
+			);
+			name = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +598,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BC4F2B18BF576E00613900 /* next.png in Resources */,
+				63568F8B18C1DAE500BE2C1B /* signUp.png in Resources */,
+				63BC4F3818BF576E00613900 /* welcome-470x320.png in Resources */,
 				63BC4E3918BF56A900613900 /* Main_iPad.storyboard in Resources */,
+				63BC4F3718BF576E00613900 /* welcome-426x320.png in Resources */,
+				63BC4F0918BF576E00613900 /* book-appointment-click.png in Resources */,
+				63BC4F3B18BF576E00613900 /* welcome-page.png in Resources */,
+				63BC4F2D18BF576E00613900 /* radio.png in Resources */,
+				63BC4F2318BF576E00613900 /* login-btn.png in Resources */,
+				63BC4F3018BF576E00613900 /* search-icon.png in Resources */,
+				63BC4F2A18BF576E00613900 /* next-click.png in Resources */,
+				22AB35C718D054E40015E0C1 /* logo-96.png in Resources */,
+				63BC4F1418BF576E00613900 /* cancel-click.png in Resources */,
+				63BC4F2C18BF576E00613900 /* radio-click.png in Resources */,
+				63BC4F0518BF576E00613900 /* back-arrow.png in Resources */,
+				63BC4F3918BF576E00613900 /* welcome-640x480.png in Resources */,
+				63BC4F1718BF576E00613900 /* devider.png in Resources */,
+				63BC4F0418BF576E00613900 /* back-arrow-click.png in Resources */,
+				63BC4F2018BF576E00613900 /* launcher-icon2.png in Resources */,
+				63BC4F1218BF576E00613900 /* calendar-click.png in Resources */,
+				63BC4F3A18BF576E00613900 /* welcome-960x720.png in Resources */,
+				63BC4F2218BF576E00613900 /* login-btn-click.png in Resources */,
 				63BC4E3E18BF56A900613900 /* Images.xcassets in Resources */,
+				63BC4F0F18BF576E00613900 /* btn-left.png in Resources */,
+				63BC4F0818BF576E00613900 /* background189x315.png in Resources */,
+				63BC4F1C18BF576E00613900 /* home-click.png in Resources */,
+				63BC4F1A18BF576E00613900 /* finish-click.png in Resources */,
+				63BC4F1D18BF576E00613900 /* home.png in Resources */,
+				63BC4F2118BF576E00613900 /* list-doctor.png in Resources */,
+				63BC4F1118BF576E00613900 /* btn-right.png in Resources */,
+				63BC4F1E18BF576E00613900 /* HY-logo.png in Resources */,
+				63BC4F3318BF576E00613900 /* searchbtn.png in Resources */,
+				63BC4F0B18BF576E00613900 /* btn-active-left.png in Resources */,
+				63BC4F2E18BF576E00613900 /* registration-line-divider.png in Resources */,
+				63BC4F2618BF576E00613900 /* mobile-big.png in Resources */,
+				63BC4F4918BF5CC300613900 /* HYHealthyYouApi.plist in Resources */,
 				63BC4E3618BF56A900613900 /* Main_iPhone.storyboard in Resources */,
+				63BC4F3518BF576E00613900 /* time-mobile.png in Resources */,
+				63BC4F0A18BF576E00613900 /* book-appointment.png in Resources */,
+				63BC4F1818BF576E00613900 /* doctor-image.png in Resources */,
+				63BC4F2418BF576E00613900 /* login.png in Resources */,
+				63BC4F2F18BF576E00613900 /* search-icon-click.png in Resources */,
+				63BC4F1018BF576E00613900 /* btn-middle.png in Resources */,
+				63BC4F2718BF576E00613900 /* mobile.png in Resources */,
+				63BC4F0E18BF576E00613900 /* btn-bg.png in Resources */,
+				63BC4F3218BF576E00613900 /* searchbtn-hover.png in Resources */,
+				63BC4F0D18BF576E00613900 /* btn-active-right.png in Resources */,
+				63BC4F1918BF576E00613900 /* dropdown.png in Resources */,
+				63BC4F1618BF576E00613900 /* date-mobile.png in Resources */,
+				63BC4F3618BF576E00613900 /* time-slot.png in Resources */,
+				63BC4F2818BF576E00613900 /* new-register-click.png in Resources */,
+				63BC4F0718BF576E00613900 /* background189x315-2.png in Resources */,
+				22BF345D18E177CB006FA822 /* login-image.png in Resources */,
+				63BC4F2518BF576E00613900 /* logout-s.png in Resources */,
+				63BC4F1F18BF576E00613900 /* launcher-icon.png in Resources */,
+				63BC4F0618BF576E00613900 /* background.png in Resources */,
+				63BC4F3118BF576E00613900 /* search-text-box.png in Resources */,
+				63BC4F1518BF576E00613900 /* cancel.png in Resources */,
+				63BC4F0C18BF576E00613900 /* btn-active-middle.png in Resources */,
 				63BC4E2D18BF56A900613900 /* InfoPlist.strings in Resources */,
+				63BC4F1B18BF576E00613900 /* finish.png in Resources */,
+				63BC4F1318BF576E00613900 /* calendar.png in Resources */,
+				63BC4F3418BF576E00613900 /* telephone.png in Resources */,
+				63BC4F2918BF576E00613900 /* new-register.png in Resources */,
+				633008C018C1DE2D00E33FAD /* SignIn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +681,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63568F7718C05DF200BE2C1B /* HYDoctorDetailsInterface.m in Sources */,
+				22AB35CA18D099FB0015E0C1 /* HYVerificationInterface.m in Sources */,
+				22156D1618CEFAA800B7B186 /* HYSignUpDataObject.m in Sources */,
+				22156D1318CEF56500B7B186 /* HYRecoverDataObject.m in Sources */,
+				63BC4F4518BF582100613900 /* HYDoctorSearchInterface.m in Sources */,
+				63568F7418C0580F00BE2C1B /* HYDoctorSearchTableView.m in Sources */,
+				22156D0D18CEE40000B7B186 /* HYRecoverPwdInterface.m in Sources */,
+				22C08D0318CD863400DAAC89 /* HYOnlineStatusDataObject.m in Sources */,
+				63568F8918C1D8DB00BE2C1B /* HYSignInViewController.m in Sources */,
+				22156D0A18CEDC8F00B7B186 /* HYRecoverPasswordViewController.m in Sources */,
+				22AB35CD18D09CC40015E0C1 /* HYVerifyDataObject.m in Sources */,
+				22A8BF1F18D96BF700E6E4D8 /* HYHospitalAddressInterface.m in Sources */,
+				22B6A68E18C9EC5900FB0EB1 /* HYOnlineDPCDInterface.m in Sources */,
+				22C08D0618CD9B6100DAAC89 /* HYVerifyAppointmentViewController.m in Sources */,
+				63568F8318C0B26900BE2C1B /* HYHospitalDataObject.m in Sources */,
 				63BC4E3318BF56A900613900 /* HYHealtyYouAppDelegate.m in Sources */,
-				63BC4E3C18BF56A900613900 /* HYHealtyYouViewController.m in Sources */,
+				63BC4F4218BF580800613900 /* HYDoctorDetailDataObject.m in Sources */,
+				229CD5E918CDD8A0001D1423 /* HYScheduleBookInterface.m in Sources */,
 				63BC4E2F18BF56A900613900 /* main.m in Sources */,
+				22B6A69118C9F62200FB0EB1 /* HYSignInInterface.m in Sources */,
+				63BC4F4C18BF5D4800613900 /* HYDoctorInfoViewController.m in Sources */,
+				22B6A69418CA00AF00FB0EB1 /* HYPatientDataObject.m in Sources */,
+				6308FDE518C7A9A700848699 /* HYSignUpViewController.m in Sources */,
+				63568F8618C1D89300BE2C1B /* HYBookAppointmentViewController.m in Sources */,
+				6308FDE818C8894600848699 /* HYNextInterface.m in Sources */,
+				63568F7118C0572100BE2C1B /* HYDoctorCell.m in Sources */,
+				63C9337218C8AA2D007B1D02 /* HYScheduleDataObject.m in Sources */,
+				22AB35C518D03D970015E0C1 /* HYTimeSlotDataObject.m in Sources */,
+				22156D1018CEF21100B7B186 /* HYSignUpInterface.m in Sources */,
+				63BC4F3F18BF57CD00613900 /* HYDoctorSearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +929,7 @@
 				63BC4E5618BF56AA00613900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63BC4E5718BF56AA00613900 /* Build configuration list for PBXNativeTarget "HYHealthyYouTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +938,7 @@
 				63BC4E5918BF56AA00613900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
